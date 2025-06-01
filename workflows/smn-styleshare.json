@@ -1,8 +1,8 @@
 {
-  "id": "b59720bd-f55a-4e45-a40f-a505e40e2f6d",
+  "id": "7cdf9654-96e6-4c48-b67b-26a44137e56b",
   "revision": 0,
-  "last_node_id": 204,
-  "last_link_id": 348,
+  "last_node_id": 171,
+  "last_link_id": 277,
   "nodes": [
     {
       "id": 18,
@@ -455,7 +455,7 @@
           "widget": {
             "name": "text"
           },
-          "link": 287
+          "link": 90
         }
       ],
       "outputs": [
@@ -934,7 +934,7 @@
           "widget": {
             "name": "text"
           },
-          "link": 305
+          "link": 147
         }
       ],
       "outputs": [
@@ -1103,11 +1103,97 @@
       ]
     },
     {
+      "id": 83,
+      "type": "SmnJSONGetKeyValue",
+      "pos": [
+        -215.7518310546875,
+        -1617.917724609375
+      ],
+      "size": [
+        372.4690246582031,
+        82
+      ],
+      "flags": {},
+      "order": 25,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "json_string",
+          "type": "STRING",
+          "widget": {
+            "name": "json_string"
+          },
+          "link": 124
+        }
+      ],
+      "outputs": [
+        {
+          "name": "value",
+          "type": "STRING",
+          "links": [
+            111
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "your_github_username/smn_comfy",
+        "Node name for S&R": "SmnJSONGetKeyValue",
+        "ver": "unknown"
+      },
+      "widgets_values": [
+        "{}",
+        "world"
+      ]
+    },
+    {
+      "id": 79,
+      "type": "SmnJSONGetKeyValue",
+      "pos": [
+        -212.869140625,
+        -1480.828125
+      ],
+      "size": [
+        369.4658203125,
+        82
+      ],
+      "flags": {},
+      "order": 44,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "json_string",
+          "type": "STRING",
+          "widget": {
+            "name": "json_string"
+          },
+          "link": 111
+        }
+      ],
+      "outputs": [
+        {
+          "name": "value",
+          "type": "STRING",
+          "links": [
+            132
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "your_github_username/smn_comfy",
+        "Node name for S&R": "SmnJSONGetKeyValue",
+        "ver": "unknown"
+      },
+      "widgets_values": [
+        "{}",
+        "geography"
+      ]
+    },
+    {
       "id": 94,
       "type": "Reroute",
       "pos": [
-        829.4851684570312,
-        702.1425170898438
+        821.43798828125,
+        972.3611450195312
       ],
       "size": [
         75,
@@ -1141,8 +1227,8 @@
       "id": 95,
       "type": "Reroute",
       "pos": [
-        827.7019653320312,
-        741.6439819335938
+        819.65478515625,
+        1011.8626098632812
       ],
       "size": [
         75,
@@ -1176,8 +1262,8 @@
       "id": 98,
       "type": "CLIPTextEncode",
       "pos": [
-        345.6051025390625,
-        509.93499755859375
+        337.55767822265625,
+        780.153564453125
       ],
       "size": [
         425.27801513671875,
@@ -1216,8 +1302,8 @@
       "id": 99,
       "type": "CLIPTextEncode",
       "pos": [
-        347.6051025390625,
-        306.9346008300781
+        339.55767822265625,
+        577.1531982421875
       ],
       "size": [
         422.84503173828125,
@@ -1238,7 +1324,7 @@
           "widget": {
             "name": "text"
           },
-          "link": 323
+          "link": 153
         }
       ],
       "outputs": [
@@ -1264,8 +1350,8 @@
       "id": 100,
       "type": "Reroute",
       "pos": [
-        829.4850463867188,
-        663.0661010742188
+        821.4378662109375,
+        933.2847290039062
       ],
       "size": [
         75,
@@ -1299,8 +1385,8 @@
       "id": 101,
       "type": "VAEEncode",
       "pos": [
-        344.40472412109375,
-        740.2643432617188
+        336.3572998046875,
+        1010.4829711914062
       ],
       "size": [
         426.1770935058594,
@@ -1341,8 +1427,8 @@
       "id": 104,
       "type": "VAEDecode",
       "pos": [
-        1823.672119140625,
-        320.3898620605469
+        1815.6251220703125,
+        590.6084594726562
       ],
       "size": [
         210,
@@ -1384,8 +1470,8 @@
       "id": 97,
       "type": "Reroute",
       "pos": [
-        1262.168212890625,
-        660.7238159179688
+        1254.12109375,
+        930.9424438476562
       ],
       "size": [
         75,
@@ -1419,8 +1505,8 @@
       "id": 96,
       "type": "Reroute",
       "pos": [
-        1261.42822265625,
-        702.7601928710938
+        1253.381103515625,
+        972.9788208007812
       ],
       "size": [
         75,
@@ -1454,8 +1540,8 @@
       "id": 93,
       "type": "Reroute",
       "pos": [
-        1261.2630615234375,
-        742.6701049804688
+        1253.2159423828125,
+        1012.8887329101562
       ],
       "size": [
         75,
@@ -1607,7 +1693,7 @@
         164.31304931640625
       ],
       "flags": {},
-      "order": 86,
+      "order": 87,
       "mode": 0,
       "inputs": [
         {
@@ -1621,7 +1707,7 @@
           "widget": {
             "name": "text"
           },
-          "link": 338
+          "link": 185
         }
       ],
       "outputs": [
@@ -1655,7 +1741,7 @@
         26
       ],
       "flags": {},
-      "order": 96,
+      "order": 97,
       "mode": 0,
       "inputs": [
         {
@@ -1775,7 +1861,7 @@
         26
       ],
       "flags": {},
-      "order": 106,
+      "order": 107,
       "mode": 0,
       "inputs": [
         {
@@ -1981,11 +2067,54 @@
       }
     },
     {
+      "id": 110,
+      "type": "SmnJSONGetKeyValue",
+      "pos": [
+        -208.10845947265625,
+        1134.808837890625
+      ],
+      "size": [
+        369.4658203125,
+        82
+      ],
+      "flags": {},
+      "order": 84,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "json_string",
+          "type": "STRING",
+          "widget": {
+            "name": "json_string"
+          },
+          "link": 164
+        }
+      ],
+      "outputs": [
+        {
+          "name": "value",
+          "type": "STRING",
+          "links": [
+            165
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "",
+        "Node name for S&R": "SmnJSONGetKeyValue",
+        "ver": "unknown"
+      },
+      "widgets_values": [
+        "{}",
+        "description"
+      ]
+    },
+    {
       "id": 136,
       "type": "Reroute",
       "pos": [
-        225.7206573486328,
-        1351.4796142578125
+        217.67315673828125,
+        1621.6983642578125
       ],
       "size": [
         75,
@@ -1998,7 +2127,7 @@
         {
           "name": "",
           "type": "*",
-          "link": 328
+          "link": 216
         }
       ],
       "outputs": [
@@ -2019,8 +2148,8 @@
       "id": 134,
       "type": "Reroute",
       "pos": [
-        224.73355102539062,
-        1393.5728759765625
+        216.68605041503906,
+        1663.7916259765625
       ],
       "size": [
         75,
@@ -2033,7 +2162,7 @@
         {
           "name": "",
           "type": "*",
-          "link": 324
+          "link": 214
         }
       ],
       "outputs": [
@@ -2054,8 +2183,8 @@
       "id": 138,
       "type": "Reroute",
       "pos": [
-        1982.915771484375,
-        1347.71923828125
+        1974.8687744140625,
+        1617.93798828125
       ],
       "size": [
         75,
@@ -2089,8 +2218,8 @@
       "id": 137,
       "type": "Reroute",
       "pos": [
-        1981.9287109375,
-        1389.8125
+        1973.8817138671875,
+        1660.03125
       ],
       "size": [
         75,
@@ -2132,13 +2261,13 @@
         26
       ],
       "flags": {},
-      "order": 97,
+      "order": 96,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 344
+          "link": 275
         }
       ],
       "outputs": [
@@ -2167,7 +2296,7 @@
         88
       ],
       "flags": {},
-      "order": 117,
+      "order": 116,
       "mode": 0,
       "inputs": [
         {
@@ -2189,8 +2318,8 @@
       "id": 139,
       "type": "PreviewAny",
       "pos": [
-        2115.740234375,
-        945.0791625976562
+        2107.693359375,
+        1215.2978515625
       ],
       "size": [
         553.3714599609375,
@@ -2303,7 +2432,7 @@
         {
           "name": "",
           "type": "*",
-          "link": 288
+          "link": 236
         }
       ],
       "outputs": [
@@ -2338,7 +2467,7 @@
         {
           "name": "",
           "type": "*",
-          "link": 292
+          "link": 234
         }
       ],
       "outputs": [
@@ -2354,6 +2483,107 @@
         "showOutputText": false,
         "horizontal": false
       }
+    },
+    {
+      "id": 154,
+      "type": "SmnJSONGetValueAs",
+      "pos": [
+        -207.51133728027344,
+        -1950.804931640625
+      ],
+      "size": [
+        350.767822265625,
+        118
+      ],
+      "flags": {},
+      "order": 58,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "json_value",
+          "type": "STRING",
+          "widget": {
+            "name": "json_value"
+          },
+          "link": 235
+        }
+      ],
+      "outputs": [
+        {
+          "name": "as_bool",
+          "type": "BOOL",
+          "links": []
+        },
+        {
+          "name": "as_int",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "name": "as_float",
+          "type": "FLOAT",
+          "links": []
+        },
+        {
+          "name": "as_string",
+          "type": "STRING",
+          "links": [
+            234
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "your_github_username/smn_comfy",
+        "Node name for S&R": "SmnJSONGetValueAs",
+        "ver": "unknown"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 57,
+      "type": "SmnJSONGetKeyValue",
+      "pos": [
+        -220.31301879882812,
+        -2498.230712890625
+      ],
+      "size": [
+        372.4690246582031,
+        82
+      ],
+      "flags": {},
+      "order": 24,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "json_string",
+          "type": "STRING",
+          "widget": {
+            "name": "json_string"
+          },
+          "link": 93
+        }
+      ],
+      "outputs": [
+        {
+          "name": "value",
+          "type": "STRING",
+          "links": [
+            75,
+            237
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "your_github_username/smn_comfy",
+        "Node name for S&R": "SmnJSONGetKeyValue",
+        "ver": "unknown"
+      },
+      "widgets_values": [
+        "{}",
+        "world"
+      ]
     },
     {
       "id": 8,
@@ -2524,7 +2754,7 @@
         {
           "name": "",
           "type": "*",
-          "link": 306
+          "link": 244
         }
       ],
       "outputs": [
@@ -2559,7 +2789,7 @@
         {
           "name": "",
           "type": "*",
-          "link": 310
+          "link": 242
         }
       ],
       "outputs": [
@@ -2610,8 +2840,8 @@
       "id": 103,
       "type": "KSampler",
       "pos": [
-        1358.7822265625,
-        313.9516906738281
+        1350.7352294921875,
+        584.1702880859375
       ],
       "size": [
         315,
@@ -2711,6 +2941,452 @@
       }
     },
     {
+      "id": 111,
+      "type": "SmnJSONGetValueAs",
+      "pos": [
+        -205.925537109375,
+        1272.7578125
+      ],
+      "size": [
+        367.0198669433594,
+        118
+      ],
+      "flags": {},
+      "order": 94,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "json_value",
+          "type": "STRING",
+          "widget": {
+            "name": "json_value"
+          },
+          "link": 165
+        }
+      ],
+      "outputs": [
+        {
+          "name": "as_bool",
+          "type": "BOOL",
+          "links": []
+        },
+        {
+          "name": "as_int",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "name": "as_float",
+          "type": "FLOAT",
+          "links": []
+        },
+        {
+          "name": "as_string",
+          "type": "STRING",
+          "links": [
+            153,
+            214
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "",
+        "Node name for S&R": "SmnJSONGetValueAs",
+        "ver": "unknown"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 133,
+      "type": "SmnJSONGetKeyValue",
+      "pos": [
+        -207.37008666992188,
+        1435.717041015625
+      ],
+      "size": [
+        366.2229919433594,
+        82
+      ],
+      "flags": {},
+      "order": 85,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "json_string",
+          "type": "STRING",
+          "widget": {
+            "name": "json_string"
+          },
+          "link": 213
+        }
+      ],
+      "outputs": [
+        {
+          "name": "value",
+          "type": "STRING",
+          "links": [
+            215
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "",
+        "Node name for S&R": "SmnJSONGetKeyValue",
+        "ver": "unknown"
+      },
+      "widgets_values": [
+        "{}",
+        "name"
+      ]
+    },
+    {
+      "id": 135,
+      "type": "SmnJSONGetValueAs",
+      "pos": [
+        -205.21322631835938,
+        1560.677001953125
+      ],
+      "size": [
+        364.8529357910156,
+        118
+      ],
+      "flags": {},
+      "order": 95,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "json_value",
+          "type": "STRING",
+          "widget": {
+            "name": "json_value"
+          },
+          "link": 215
+        }
+      ],
+      "outputs": [
+        {
+          "name": "as_bool",
+          "type": "BOOL",
+          "links": []
+        },
+        {
+          "name": "as_int",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "name": "as_float",
+          "type": "FLOAT",
+          "links": []
+        },
+        {
+          "name": "as_string",
+          "type": "STRING",
+          "links": [
+            216
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "",
+        "Node name for S&R": "SmnJSONGetValueAs",
+        "ver": "unknown"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 107,
+      "type": "SmnJSONGetKeyValue",
+      "pos": [
+        -219.62344360351562,
+        714.7504272460938
+      ],
+      "size": [
+        375.9666442871094,
+        82
+      ],
+      "flags": {},
+      "order": 45,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "json_string",
+          "type": "STRING",
+          "widget": {
+            "name": "json_string"
+          },
+          "link": 161
+        }
+      ],
+      "outputs": [
+        {
+          "name": "value",
+          "type": "STRING",
+          "links": [
+            162
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "",
+        "Node name for S&R": "SmnJSONGetKeyValue",
+        "ver": "unknown"
+      },
+      "widgets_values": [
+        "{}",
+        "geography"
+      ]
+    },
+    {
+      "id": 90,
+      "type": "SmnJSONGetIndexValue",
+      "pos": [
+        -203.4287872314453,
+        -1221.7178955078125
+      ],
+      "size": [
+        363.30975341796875,
+        112
+      ],
+      "flags": {},
+      "order": 74,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "json_string",
+          "type": "STRING",
+          "widget": {
+            "name": "json_string"
+          },
+          "link": 137
+        }
+      ],
+      "outputs": [
+        {
+          "name": "value",
+          "type": "STRING",
+          "links": [
+            142,
+            245
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "your_github_username/smn_comfy",
+        "Node name for S&R": "SmnJSONGetIndexValue",
+        "ver": "unknown"
+      },
+      "widgets_values": [
+        "[]",
+        0
+      ]
+    },
+    {
+      "id": 92,
+      "type": "SmnJSONGetKeyValue",
+      "pos": [
+        -201.3541259765625,
+        -1060.7706298828125
+      ],
+      "size": [
+        360.60107421875,
+        82
+      ],
+      "flags": {},
+      "order": 82,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "json_string",
+          "type": "STRING",
+          "widget": {
+            "name": "json_string"
+          },
+          "link": 142
+        }
+      ],
+      "outputs": [
+        {
+          "name": "value",
+          "type": "STRING",
+          "links": [
+            145
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "your_github_username/smn_comfy",
+        "Node name for S&R": "SmnJSONGetKeyValue",
+        "ver": "unknown"
+      },
+      "widgets_values": [
+        "{}",
+        "description"
+      ]
+    },
+    {
+      "id": 87,
+      "type": "SmnJSONGetValueAs",
+      "pos": [
+        -199.17120361328125,
+        -922.8177490234375
+      ],
+      "size": [
+        360.6175537109375,
+        118
+      ],
+      "flags": {},
+      "order": 92,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "json_value",
+          "type": "STRING",
+          "widget": {
+            "name": "json_value"
+          },
+          "link": 145
+        }
+      ],
+      "outputs": [
+        {
+          "name": "as_bool",
+          "type": "BOOL",
+          "links": []
+        },
+        {
+          "name": "as_int",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "name": "as_float",
+          "type": "FLOAT",
+          "links": []
+        },
+        {
+          "name": "as_string",
+          "type": "STRING",
+          "links": [
+            147,
+            244
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "your_github_username/smn_comfy",
+        "Node name for S&R": "SmnJSONGetValueAs",
+        "ver": "unknown"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 163,
+      "type": "SmnJSONGetKeyValue",
+      "pos": [
+        -194.85055541992188,
+        -755.337158203125
+      ],
+      "size": [
+        349.37994384765625,
+        82
+      ],
+      "flags": {},
+      "order": 83,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "json_string",
+          "type": "STRING",
+          "widget": {
+            "name": "json_string"
+          },
+          "link": 245
+        }
+      ],
+      "outputs": [
+        {
+          "name": "value",
+          "type": "STRING",
+          "links": [
+            243
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "your_github_username/smn_comfy",
+        "Node name for S&R": "SmnJSONGetKeyValue",
+        "ver": "unknown"
+      },
+      "widgets_values": [
+        "{}",
+        "name"
+      ]
+    },
+    {
+      "id": 162,
+      "type": "SmnJSONGetValueAs",
+      "pos": [
+        -190.31007385253906,
+        -617.26953125
+      ],
+      "size": [
+        350.767822265625,
+        118
+      ],
+      "flags": {},
+      "order": 93,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "json_value",
+          "type": "STRING",
+          "widget": {
+            "name": "json_value"
+          },
+          "link": 243
+        }
+      ],
+      "outputs": [
+        {
+          "name": "as_bool",
+          "type": "BOOL",
+          "links": []
+        },
+        {
+          "name": "as_int",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "name": "as_float",
+          "type": "FLOAT",
+          "links": []
+        },
+        {
+          "name": "as_string",
+          "type": "STRING",
+          "links": [
+            242
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "your_github_username/smn_comfy",
+        "Node name for S&R": "SmnJSONGetValueAs",
+        "ver": "unknown"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
       "id": 158,
       "type": "Reroute",
       "pos": [
@@ -2746,6 +3422,150 @@
       }
     },
     {
+      "id": 155,
+      "type": "SmnJSONGetKeyValue",
+      "pos": [
+        -209.6682891845703,
+        -2075.766845703125
+      ],
+      "size": [
+        365.1395263671875,
+        82
+      ],
+      "flags": {},
+      "order": 43,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "json_string",
+          "type": "STRING",
+          "widget": {
+            "name": "json_string"
+          },
+          "link": 237
+        }
+      ],
+      "outputs": [
+        {
+          "name": "value",
+          "type": "STRING",
+          "links": [
+            235
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "your_github_username/smn_comfy",
+        "Node name for S&R": "SmnJSONGetKeyValue",
+        "ver": "unknown"
+      },
+      "widgets_values": [
+        "{}",
+        "name"
+      ]
+    },
+    {
+      "id": 63,
+      "type": "SmnJSONGetValueAs",
+      "pos": [
+        -211.9313201904297,
+        -2240.718505859375
+      ],
+      "size": [
+        364.55743408203125,
+        118
+      ],
+      "flags": {},
+      "order": 57,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "json_value",
+          "type": "STRING",
+          "widget": {
+            "name": "json_value"
+          },
+          "link": 77
+        }
+      ],
+      "outputs": [
+        {
+          "name": "as_bool",
+          "type": "BOOL",
+          "links": []
+        },
+        {
+          "name": "as_int",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "name": "as_float",
+          "type": "FLOAT",
+          "links": []
+        },
+        {
+          "name": "as_string",
+          "type": "STRING",
+          "links": [
+            90,
+            236
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "your_github_username/smn_comfy",
+        "Node name for S&R": "SmnJSONGetValueAs",
+        "ver": "unknown"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 62,
+      "type": "SmnJSONGetKeyValue",
+      "pos": [
+        -215.46038818359375,
+        -2369.019287109375
+      ],
+      "size": [
+        369.4658203125,
+        82
+      ],
+      "flags": {},
+      "order": 42,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "json_string",
+          "type": "STRING",
+          "widget": {
+            "name": "json_string"
+          },
+          "link": 75
+        }
+      ],
+      "outputs": [
+        {
+          "name": "value",
+          "type": "STRING",
+          "links": [
+            77
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "your_github_username/smn_comfy",
+        "Node name for S&R": "SmnJSONGetKeyValue",
+        "ver": "unknown"
+      },
+      "widgets_values": [
+        "{}",
+        "description"
+      ]
+    },
+    {
       "id": 157,
       "type": "PreviewAny",
       "pos": [
@@ -2776,11 +3596,54 @@
       "widgets_values": []
     },
     {
+      "id": 91,
+      "type": "SmnJSONGetKeyValue",
+      "pos": [
+        -205.3884735107422,
+        -1351.9998779296875
+      ],
+      "size": [
+        364.54095458984375,
+        82
+      ],
+      "flags": {},
+      "order": 59,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "json_string",
+          "type": "STRING",
+          "widget": {
+            "name": "json_string"
+          },
+          "link": 132
+        }
+      ],
+      "outputs": [
+        {
+          "name": "value",
+          "type": "STRING",
+          "links": [
+            137
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "your_github_username/smn_comfy",
+        "Node name for S&R": "SmnJSONGetKeyValue",
+        "ver": "unknown"
+      },
+      "widgets_values": [
+        "{}",
+        "continents"
+      ]
+    },
+    {
       "id": 112,
       "type": "PreviewAny",
       "pos": [
-        2117.887939453125,
-        809.7073974609375
+        2109.841064453125,
+        1079.926025390625
       ],
       "size": [
         548.6041870117188,
@@ -3091,8 +3954,8 @@
       "id": 167,
       "type": "Reroute",
       "pos": [
-        68.7563247680664,
-        142.2056121826172
+        72.0431137084961,
+        142.62863159179688
       ],
       "size": [
         75,
@@ -3126,6 +3989,142 @@
       }
     },
     {
+      "id": 166,
+      "type": "Reroute",
+      "pos": [
+        -412.1060485839844,
+        139.86453247070312
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "widget": {
+            "name": "value"
+          },
+          "link": 249
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "FLOAT",
+          "links": [
+            251
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 168,
+      "type": "Reroute",
+      "pos": [
+        788.9209594726562,
+        142.43321228027344
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 40,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "widget": {
+            "name": "value"
+          },
+          "link": 250
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "FLOAT",
+          "links": [
+            252,
+            253,
+            254,
+            255
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 132,
+      "type": "SmnJSONGetValueAs",
+      "pos": [
+        -207.0828857421875,
+        2280.029052734375
+      ],
+      "size": [
+        364.55743408203125,
+        118
+      ],
+      "flags": {},
+      "order": 77,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "json_value",
+          "type": "STRING",
+          "widget": {
+            "name": "json_value"
+          },
+          "link": 269
+        }
+      ],
+      "outputs": [
+        {
+          "name": "as_bool",
+          "type": "BOOL",
+          "links": []
+        },
+        {
+          "name": "as_int",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "name": "as_float",
+          "type": "FLOAT",
+          "links": []
+        },
+        {
+          "name": "as_string",
+          "type": "STRING",
+          "links": [
+            185
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "",
+        "Node name for S&R": "SmnJSONGetValueAs",
+        "ver": "unknown"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
       "id": 145,
       "type": "PreviewAny",
       "pos": [
@@ -3156,6 +4155,137 @@
       "widgets_values": []
     },
     {
+      "id": 170,
+      "type": "SmnJSONGetKeyValue",
+      "pos": [
+        -199.0228271484375,
+        2569.266357421875
+      ],
+      "size": [
+        369.4658203125,
+        82
+      ],
+      "flags": {},
+      "order": 78,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "json_string",
+          "type": "STRING",
+          "widget": {
+            "name": "json_string"
+          },
+          "link": 273
+        }
+      ],
+      "outputs": [
+        {
+          "name": "value",
+          "type": "STRING",
+          "links": [
+            272
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "",
+        "Node name for S&R": "SmnJSONGetKeyValue",
+        "ver": "unknown"
+      },
+      "widgets_values": [
+        "{}",
+        "description"
+      ]
+    },
+    {
+      "id": 147,
+      "type": "SmnJSONGetKeyValue",
+      "pos": [
+        -202.61453247070312,
+        2442.198486328125
+      ],
+      "size": [
+        369.4658203125,
+        82
+      ],
+      "flags": {},
+      "order": 76,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "json_string",
+          "type": "STRING",
+          "widget": {
+            "name": "json_string"
+          },
+          "link": 227
+        }
+      ],
+      "outputs": [
+        {
+          "name": "value",
+          "type": "STRING",
+          "links": [
+            228
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "",
+        "Node name for S&R": "SmnJSONGetKeyValue",
+        "ver": "unknown"
+      },
+      "widgets_values": [
+        "{}",
+        "name"
+      ]
+    },
+    {
+      "id": 130,
+      "type": "SmnJSONGetIndexValue",
+      "pos": [
+        -212.36575317382812,
+        2120.6162109375
+      ],
+      "size": [
+        370.2045593261719,
+        112
+      ],
+      "flags": {},
+      "order": 61,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "json_string",
+          "type": "STRING",
+          "widget": {
+            "name": "json_string"
+          },
+          "link": 267
+        }
+      ],
+      "outputs": [
+        {
+          "name": "value",
+          "type": "STRING",
+          "links": [
+            227,
+            269,
+            273
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "",
+        "Node name for S&R": "SmnJSONGetIndexValue",
+        "ver": "unknown"
+      },
+      "widgets_values": [
+        "[]",
+        0
+      ]
+    },
+    {
       "id": 142,
       "type": "Reroute",
       "pos": [
@@ -3173,7 +4303,7 @@
         {
           "name": "",
           "type": "*",
-          "link": 346
+          "link": 274
         }
       ],
       "outputs": [
@@ -3191,6 +4321,63 @@
       }
     },
     {
+      "id": 171,
+      "type": "SmnJSONGetValueAs",
+      "pos": [
+        -193.91966247558594,
+        2860.245361328125
+      ],
+      "size": [
+        350.767822265625,
+        118
+      ],
+      "flags": {},
+      "order": 88,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "json_value",
+          "type": "STRING",
+          "widget": {
+            "name": "json_value"
+          },
+          "link": 272
+        }
+      ],
+      "outputs": [
+        {
+          "name": "as_bool",
+          "type": "BOOL",
+          "links": []
+        },
+        {
+          "name": "as_int",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "name": "as_float",
+          "type": "FLOAT",
+          "links": []
+        },
+        {
+          "name": "as_string",
+          "type": "STRING",
+          "links": [
+            274
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "",
+        "Node name for S&R": "SmnJSONGetValueAs",
+        "ver": "unknown"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
       "id": 143,
       "type": "Reroute",
       "pos": [
@@ -3202,7 +4389,7 @@
         26
       ],
       "flags": {},
-      "order": 107,
+      "order": 106,
       "mode": 0,
       "inputs": [
         {
@@ -3407,6 +4594,81 @@
       }
     },
     {
+      "id": 102,
+      "type": "IPAdapterAdvanced",
+      "pos": [
+        926.4692993164062,
+        -154.6449737548828
+      ],
+      "size": [
+        270,
+        278
+      ],
+      "flags": {},
+      "order": 70,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 173
+        },
+        {
+          "name": "ipadapter",
+          "type": "IPADAPTER",
+          "link": 172
+        },
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 174
+        },
+        {
+          "name": "image_negative",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "attn_mask",
+          "shape": 7,
+          "type": "MASK",
+          "link": null
+        },
+        {
+          "name": "clip_vision",
+          "shape": 7,
+          "type": "CLIP_VISION",
+          "link": 171
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            155,
+            246,
+            247,
+            248
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui_ipadapter_plus",
+        "ver": "2.0.0",
+        "Node name for S&R": "IPAdapterAdvanced"
+      },
+      "widgets_values": [
+        1.0000000000000002,
+        "style transfer",
+        "concat",
+        0,
+        1,
+        "K+V"
+      ]
+    },
+    {
       "id": 68,
       "type": "Reroute",
       "pos": [
@@ -3427,7 +4689,7 @@
           "widget": {
             "name": "value"
           },
-          "link": 348
+          "link": 277
         }
       ],
       "outputs": [
@@ -3435,10 +4697,10 @@
           "name": "",
           "type": "STRING",
           "links": [
-            281,
-            293,
-            311,
-            329
+            93,
+            124,
+            178,
+            202
           ]
         }
       ],
@@ -3486,6 +4748,47 @@
       }
     },
     {
+      "id": 51,
+      "type": "PrepImageForClipVision",
+      "pos": [
+        -996.6207275390625,
+        657.6259765625
+      ],
+      "size": [
+        242.96958923339844,
+        106
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 86
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            84
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui_ipadapter_plus",
+        "ver": "2.0.0",
+        "Node name for S&R": "PrepImageForClipVision"
+      },
+      "widgets_values": [
+        "LANCZOS",
+        "center",
+        0.10000000000000002
+      ]
+    },
+    {
       "id": 48,
       "type": "LoadImage",
       "pos": [
@@ -3529,8 +4832,8 @@
       "id": 105,
       "type": "SaveImage",
       "pos": [
-        2115.350341796875,
-        321.2240905761719
+        2107.303466796875,
+        591.4426879882812
       ],
       "size": [
         559.2802124023438,
@@ -3556,6 +4859,36 @@
       ]
     },
     {
+      "id": 9,
+      "type": "SaveImage",
+      "pos": [
+        2110.6865234375,
+        -2490.408203125
+      ],
+      "size": [
+        553.3211059570312,
+        438.49810791015625
+      ],
+      "flags": {},
+      "order": 119,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 9
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.34"
+      },
+      "widgets_values": [
+        "ComfyUI"
+      ]
+    },
+    {
       "id": 120,
       "type": "KSampler",
       "pos": [
@@ -3567,7 +4900,7 @@
         262
       ],
       "flags": {},
-      "order": 116,
+      "order": 117,
       "mode": 0,
       "inputs": [
         {
@@ -3655,524 +4988,48 @@
       ]
     },
     {
-      "id": 174,
-      "type": "SmnJSONGetKeyValue",
+      "id": 164,
+      "type": "SmnInputFloat",
       "pos": [
-        -215.46038818359375,
-        -2369.019287109375
+        -1343.541748046875,
+        1042.70361328125
       ],
       "size": [
-        270,
-        82
+        298.490966796875,
+        58
       ],
       "flags": {},
-      "order": 42,
+      "order": 4,
       "mode": 0,
-      "inputs": [
-        {
-          "name": "json_string",
-          "type": "STRING",
-          "widget": {
-            "name": "json_string"
-          },
-          "link": 284
-        }
-      ],
+      "inputs": [],
       "outputs": [
         {
           "name": "value",
-          "type": "STRING",
-          "links": [
-            286
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "SmnJSONGetKeyValue"
-      },
-      "widgets_values": [
-        "{}",
-        "description"
-      ]
-    },
-    {
-      "id": 175,
-      "type": "SmnJSONGetValueAs",
-      "pos": [
-        -211.9313201904297,
-        -2240.718505859375
-      ],
-      "size": [
-        270,
-        118
-      ],
-      "flags": {},
-      "order": 57,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "json_value",
-          "type": "STRING",
-          "widget": {
-            "name": "json_value"
-          },
-          "link": 286
-        }
-      ],
-      "outputs": [
-        {
-          "name": "as_bool",
-          "type": "BOOL",
-          "links": null
-        },
-        {
-          "name": "as_int",
-          "type": "INT",
-          "links": null
-        },
-        {
-          "name": "as_float",
           "type": "FLOAT",
-          "links": null
-        },
-        {
-          "name": "as_string",
-          "type": "STRING",
           "links": [
-            287,
-            288
+            249
           ]
         }
       ],
+      "title": "Latent Denoise",
       "properties": {
-        "Node name for S&R": "SmnJSONGetValueAs"
+        "aux_id": "your_github_username/smn_comfy",
+        "Node name for S&R": "SmnInputFloat",
+        "ver": "unknown"
       },
       "widgets_values": [
-        ""
+        1.07
       ]
     },
     {
-      "id": 176,
+      "id": 106,
       "type": "SmnJSONGetKeyValue",
       "pos": [
-        -209.6682891845703,
-        -2075.766845703125
+        -222.5061492919922,
+        577.6610107421875
       ],
       "size": [
-        270,
-        82
-      ],
-      "flags": {},
-      "order": 43,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "json_string",
-          "type": "STRING",
-          "widget": {
-            "name": "json_string"
-          },
-          "link": 289
-        }
-      ],
-      "outputs": [
-        {
-          "name": "value",
-          "type": "STRING",
-          "links": [
-            291
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "SmnJSONGetKeyValue"
-      },
-      "widgets_values": [
-        "{}",
-        "name"
-      ]
-    },
-    {
-      "id": 177,
-      "type": "SmnJSONGetValueAs",
-      "pos": [
-        -207.51133728027344,
-        -1950.804931640625
-      ],
-      "size": [
-        270,
-        118
-      ],
-      "flags": {},
-      "order": 58,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "json_value",
-          "type": "STRING",
-          "widget": {
-            "name": "json_value"
-          },
-          "link": 291
-        }
-      ],
-      "outputs": [
-        {
-          "name": "as_bool",
-          "type": "BOOL",
-          "links": null
-        },
-        {
-          "name": "as_int",
-          "type": "INT",
-          "links": null
-        },
-        {
-          "name": "as_float",
-          "type": "FLOAT",
-          "links": null
-        },
-        {
-          "name": "as_string",
-          "type": "STRING",
-          "links": [
-            292
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "SmnJSONGetValueAs"
-      },
-      "widgets_values": [
-        ""
-      ]
-    },
-    {
-      "id": 180,
-      "type": "SmnJSONGetKeyValue",
-      "pos": [
-        -206.91004943847656,
-        -1483.211669921875
-      ],
-      "size": [
-        270,
-        82
-      ],
-      "flags": {},
-      "order": 44,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "json_string",
-          "type": "STRING",
-          "widget": {
-            "name": "json_string"
-          },
-          "link": 295
-        }
-      ],
-      "outputs": [
-        {
-          "name": "value",
-          "type": "STRING",
-          "links": [
-            297
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "SmnJSONGetKeyValue"
-      },
-      "widgets_values": [
-        "{}",
-        "geography"
-      ]
-    },
-    {
-      "id": 181,
-      "type": "SmnJSONGetKeyValue",
-      "pos": [
-        -205.3884735107422,
-        -1351.9998779296875
-      ],
-      "size": [
-        270,
-        82
-      ],
-      "flags": {},
-      "order": 59,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "json_string",
-          "type": "STRING",
-          "widget": {
-            "name": "json_string"
-          },
-          "link": 297
-        }
-      ],
-      "outputs": [
-        {
-          "name": "value",
-          "type": "STRING",
-          "links": [
-            299
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "SmnJSONGetKeyValue"
-      },
-      "widgets_values": [
-        "{}",
-        "continents"
-      ]
-    },
-    {
-      "id": 182,
-      "type": "SmnJSONGetIndexValue",
-      "pos": [
-        -203.4287872314453,
-        -1221.7178955078125
-      ],
-      "size": [
-        362.5710144042969,
-        112
-      ],
-      "flags": {},
-      "order": 74,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "json_string",
-          "type": "STRING",
-          "widget": {
-            "name": "json_string"
-          },
-          "link": 299
-        }
-      ],
-      "outputs": [
-        {
-          "name": "value",
-          "type": "STRING",
-          "links": [
-            302,
-            307
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "SmnJSONGetIndexValue"
-      },
-      "widgets_values": [
-        "[]",
-        0
-      ]
-    },
-    {
-      "id": 183,
-      "type": "SmnJSONGetKeyValue",
-      "pos": [
-        -201.3541259765625,
-        -1060.7706298828125
-      ],
-      "size": [
-        270,
-        82
-      ],
-      "flags": {},
-      "order": 82,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "json_string",
-          "type": "STRING",
-          "widget": {
-            "name": "json_string"
-          },
-          "link": 302
-        }
-      ],
-      "outputs": [
-        {
-          "name": "value",
-          "type": "STRING",
-          "links": [
-            304
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "SmnJSONGetKeyValue"
-      },
-      "widgets_values": [
-        "{}",
-        "description"
-      ]
-    },
-    {
-      "id": 184,
-      "type": "SmnJSONGetValueAs",
-      "pos": [
-        -199.17120361328125,
-        -922.8177490234375
-      ],
-      "size": [
-        270,
-        118
-      ],
-      "flags": {},
-      "order": 92,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "json_value",
-          "type": "STRING",
-          "widget": {
-            "name": "json_value"
-          },
-          "link": 304
-        }
-      ],
-      "outputs": [
-        {
-          "name": "as_bool",
-          "type": "BOOL",
-          "links": null
-        },
-        {
-          "name": "as_int",
-          "type": "INT",
-          "links": null
-        },
-        {
-          "name": "as_float",
-          "type": "FLOAT",
-          "links": null
-        },
-        {
-          "name": "as_string",
-          "type": "STRING",
-          "links": [
-            305,
-            306
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "SmnJSONGetValueAs"
-      },
-      "widgets_values": [
-        ""
-      ]
-    },
-    {
-      "id": 185,
-      "type": "SmnJSONGetKeyValue",
-      "pos": [
-        -194.85055541992188,
-        -755.337158203125
-      ],
-      "size": [
-        270,
-        82
-      ],
-      "flags": {},
-      "order": 83,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "json_string",
-          "type": "STRING",
-          "widget": {
-            "name": "json_string"
-          },
-          "link": 307
-        }
-      ],
-      "outputs": [
-        {
-          "name": "value",
-          "type": "STRING",
-          "links": [
-            309
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "SmnJSONGetKeyValue"
-      },
-      "widgets_values": [
-        "{}",
-        "name"
-      ]
-    },
-    {
-      "id": 186,
-      "type": "SmnJSONGetValueAs",
-      "pos": [
-        -190.31007385253906,
-        -617.26953125
-      ],
-      "size": [
-        270,
-        118
-      ],
-      "flags": {},
-      "order": 93,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "json_value",
-          "type": "STRING",
-          "widget": {
-            "name": "json_value"
-          },
-          "link": 309
-        }
-      ],
-      "outputs": [
-        {
-          "name": "as_bool",
-          "type": "BOOL",
-          "links": null
-        },
-        {
-          "name": "as_int",
-          "type": "INT",
-          "links": null
-        },
-        {
-          "name": "as_float",
-          "type": "FLOAT",
-          "links": null
-        },
-        {
-          "name": "as_string",
-          "type": "STRING",
-          "links": [
-            310
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "SmnJSONGetValueAs"
-      },
-      "widgets_values": [
-        ""
-      ]
-    },
-    {
-      "id": 187,
-      "type": "SmnJSONGetKeyValue",
-      "pos": [
-        -214.45901489257812,
-        307.4424133300781
-      ],
-      "size": [
-        270,
+        382.2202453613281,
         82
       ],
       "flags": {},
@@ -4185,7 +5042,7 @@
           "widget": {
             "name": "json_string"
           },
-          "link": 311
+          "link": 178
         }
       ],
       "outputs": [
@@ -4193,12 +5050,14 @@
           "name": "value",
           "type": "STRING",
           "links": [
-            313
+            161
           ]
         }
       ],
       "properties": {
-        "Node name for S&R": "SmnJSONGetKeyValue"
+        "aux_id": "",
+        "Node name for S&R": "SmnJSONGetKeyValue",
+        "ver": "unknown"
       },
       "widgets_values": [
         "{}",
@@ -4206,55 +5065,14 @@
       ]
     },
     {
-      "id": 188,
+      "id": 108,
       "type": "SmnJSONGetKeyValue",
       "pos": [
-        -211.57632446289062,
-        444.5318908691406
+        -212.14279174804688,
+        843.5786743164062
       ],
       "size": [
-        270,
-        82
-      ],
-      "flags": {},
-      "order": 45,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "json_string",
-          "type": "STRING",
-          "widget": {
-            "name": "json_string"
-          },
-          "link": 313
-        }
-      ],
-      "outputs": [
-        {
-          "name": "value",
-          "type": "STRING",
-          "links": [
-            315
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "SmnJSONGetKeyValue"
-      },
-      "widgets_values": [
-        "{}",
-        "geography"
-      ]
-    },
-    {
-      "id": 189,
-      "type": "SmnJSONGetKeyValue",
-      "pos": [
-        -204.09561157226562,
-        573.3601684570312
-      ],
-      "size": [
-        270,
+        369.4658203125,
         82
       ],
       "flags": {},
@@ -4267,7 +5085,7 @@
           "widget": {
             "name": "json_string"
           },
-          "link": 315
+          "link": 162
         }
       ],
       "outputs": [
@@ -4275,12 +5093,14 @@
           "name": "value",
           "type": "STRING",
           "links": [
-            317
+            163
           ]
         }
       ],
       "properties": {
-        "Node name for S&R": "SmnJSONGetKeyValue"
+        "aux_id": "",
+        "Node name for S&R": "SmnJSONGetKeyValue",
+        "ver": "unknown"
       },
       "widgets_values": [
         "{}",
@@ -4288,14 +5108,14 @@
       ]
     },
     {
-      "id": 190,
+      "id": 109,
       "type": "SmnJSONGetIndexValue",
       "pos": [
-        -202.13601684570312,
-        703.6417846679688
+        -210.1831512451172,
+        973.8604125976562
       ],
       "size": [
-        369.6628112792969,
+        370.2045593261719,
         112
       ],
       "flags": {},
@@ -4308,7 +5128,7 @@
           "widget": {
             "name": "json_string"
           },
-          "link": 317
+          "link": 163
         }
       ],
       "outputs": [
@@ -4316,13 +5136,15 @@
           "name": "value",
           "type": "STRING",
           "links": [
-            320,
-            325
+            164,
+            213
           ]
         }
       ],
       "properties": {
-        "Node name for S&R": "SmnJSONGetIndexValue"
+        "aux_id": "",
+        "Node name for S&R": "SmnJSONGetIndexValue",
+        "ver": "unknown"
       },
       "widgets_values": [
         "[]",
@@ -4330,207 +5152,14 @@
       ]
     },
     {
-      "id": 191,
-      "type": "SmnJSONGetKeyValue",
-      "pos": [
-        -200.06129455566406,
-        864.5902099609375
-      ],
-      "size": [
-        270,
-        82
-      ],
-      "flags": {},
-      "order": 84,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "json_string",
-          "type": "STRING",
-          "widget": {
-            "name": "json_string"
-          },
-          "link": 320
-        }
-      ],
-      "outputs": [
-        {
-          "name": "value",
-          "type": "STRING",
-          "links": [
-            322
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "SmnJSONGetKeyValue"
-      },
-      "widgets_values": [
-        "{}",
-        "description"
-      ]
-    },
-    {
-      "id": 192,
-      "type": "SmnJSONGetValueAs",
-      "pos": [
-        -197.8783721923828,
-        1002.5391235351562
-      ],
-      "size": [
-        270,
-        118
-      ],
-      "flags": {},
-      "order": 94,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "json_value",
-          "type": "STRING",
-          "widget": {
-            "name": "json_value"
-          },
-          "link": 322
-        }
-      ],
-      "outputs": [
-        {
-          "name": "as_bool",
-          "type": "BOOL",
-          "links": null
-        },
-        {
-          "name": "as_int",
-          "type": "INT",
-          "links": null
-        },
-        {
-          "name": "as_float",
-          "type": "FLOAT",
-          "links": null
-        },
-        {
-          "name": "as_string",
-          "type": "STRING",
-          "links": [
-            323,
-            324
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "SmnJSONGetValueAs"
-      },
-      "widgets_values": [
-        ""
-      ]
-    },
-    {
-      "id": 193,
-      "type": "SmnJSONGetKeyValue",
-      "pos": [
-        -199.32289123535156,
-        1165.498291015625
-      ],
-      "size": [
-        270,
-        82
-      ],
-      "flags": {},
-      "order": 85,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "json_string",
-          "type": "STRING",
-          "widget": {
-            "name": "json_string"
-          },
-          "link": 325
-        }
-      ],
-      "outputs": [
-        {
-          "name": "value",
-          "type": "STRING",
-          "links": [
-            327
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "SmnJSONGetKeyValue"
-      },
-      "widgets_values": [
-        "{}",
-        "name"
-      ]
-    },
-    {
-      "id": 194,
-      "type": "SmnJSONGetValueAs",
-      "pos": [
-        -197.16603088378906,
-        1290.458251953125
-      ],
-      "size": [
-        270,
-        118
-      ],
-      "flags": {},
-      "order": 95,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "json_value",
-          "type": "STRING",
-          "widget": {
-            "name": "json_value"
-          },
-          "link": 327
-        }
-      ],
-      "outputs": [
-        {
-          "name": "as_bool",
-          "type": "BOOL",
-          "links": null
-        },
-        {
-          "name": "as_int",
-          "type": "INT",
-          "links": null
-        },
-        {
-          "name": "as_float",
-          "type": "FLOAT",
-          "links": null
-        },
-        {
-          "name": "as_string",
-          "type": "STRING",
-          "links": [
-            328
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "SmnJSONGetValueAs"
-      },
-      "widgets_values": [
-        ""
-      ]
-    },
-    {
-      "id": 195,
+      "id": 123,
       "type": "SmnJSONGetKeyValue",
       "pos": [
         -218.68939208984375,
         1853.0904541015625
       ],
       "size": [
-        270,
+        372.4690246582031,
         82
       ],
       "flags": {},
@@ -4543,7 +5172,7 @@
           "widget": {
             "name": "json_string"
           },
-          "link": 329
+          "link": 202
         }
       ],
       "outputs": [
@@ -4551,12 +5180,14 @@
           "name": "value",
           "type": "STRING",
           "links": [
-            331
+            264
           ]
         }
       ],
       "properties": {
-        "Node name for S&R": "SmnJSONGetKeyValue"
+        "aux_id": "",
+        "Node name for S&R": "SmnJSONGetKeyValue",
+        "ver": "unknown"
       },
       "widgets_values": [
         "{}",
@@ -4564,14 +5195,14 @@
       ]
     },
     {
-      "id": 196,
+      "id": 127,
       "type": "SmnJSONGetKeyValue",
       "pos": [
         -215.80667114257812,
         1990.1805419921875
       ],
       "size": [
-        270,
+        369.4658203125,
         82
       ],
       "flags": {},
@@ -4584,7 +5215,7 @@
           "widget": {
             "name": "json_string"
           },
-          "link": 331
+          "link": 264
         }
       ],
       "outputs": [
@@ -4592,12 +5223,14 @@
           "name": "value",
           "type": "STRING",
           "links": [
-            333
+            267
           ]
         }
       ],
       "properties": {
-        "Node name for S&R": "SmnJSONGetKeyValue"
+        "aux_id": "",
+        "Node name for S&R": "SmnJSONGetKeyValue",
+        "ver": "unknown"
       },
       "widgets_values": [
         "{}",
@@ -4605,198 +5238,18 @@
       ]
     },
     {
-      "id": 197,
-      "type": "SmnJSONGetIndexValue",
-      "pos": [
-        -212.36575317382812,
-        2120.6162109375
-      ],
-      "size": [
-        367.0352478027344,
-        112
-      ],
-      "flags": {},
-      "order": 61,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "json_string",
-          "type": "STRING",
-          "widget": {
-            "name": "json_string"
-          },
-          "link": 333
-        }
-      ],
-      "outputs": [
-        {
-          "name": "value",
-          "type": "STRING",
-          "links": [
-            337,
-            339,
-            341
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "SmnJSONGetIndexValue"
-      },
-      "widgets_values": [
-        "[]",
-        0
-      ]
-    },
-    {
-      "id": 198,
-      "type": "SmnJSONGetValueAs",
-      "pos": [
-        -207.0828857421875,
-        2280.029052734375
-      ],
-      "size": [
-        270,
-        118
-      ],
-      "flags": {},
-      "order": 76,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "json_value",
-          "type": "STRING",
-          "widget": {
-            "name": "json_value"
-          },
-          "link": 337
-        }
-      ],
-      "outputs": [
-        {
-          "name": "as_bool",
-          "type": "BOOL",
-          "links": null
-        },
-        {
-          "name": "as_int",
-          "type": "INT",
-          "links": null
-        },
-        {
-          "name": "as_float",
-          "type": "FLOAT",
-          "links": null
-        },
-        {
-          "name": "as_string",
-          "type": "STRING",
-          "links": [
-            338
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "SmnJSONGetValueAs"
-      },
-      "widgets_values": [
-        ""
-      ]
-    },
-    {
-      "id": 199,
-      "type": "SmnJSONGetKeyValue",
-      "pos": [
-        -202.61453247070312,
-        2442.198486328125
-      ],
-      "size": [
-        270,
-        82
-      ],
-      "flags": {},
-      "order": 77,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "json_string",
-          "type": "STRING",
-          "widget": {
-            "name": "json_string"
-          },
-          "link": 339
-        }
-      ],
-      "outputs": [
-        {
-          "name": "value",
-          "type": "STRING",
-          "links": [
-            343
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "SmnJSONGetKeyValue"
-      },
-      "widgets_values": [
-        "{}",
-        "name"
-      ]
-    },
-    {
-      "id": 200,
-      "type": "SmnJSONGetKeyValue",
-      "pos": [
-        -199.0228271484375,
-        2569.266357421875
-      ],
-      "size": [
-        270,
-        82
-      ],
-      "flags": {},
-      "order": 78,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "json_string",
-          "type": "STRING",
-          "widget": {
-            "name": "json_string"
-          },
-          "link": 341
-        }
-      ],
-      "outputs": [
-        {
-          "name": "value",
-          "type": "STRING",
-          "links": [
-            345
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "SmnJSONGetKeyValue"
-      },
-      "widgets_values": [
-        "{}",
-        "description"
-      ]
-    },
-    {
-      "id": 201,
+      "id": 140,
       "type": "SmnJSONGetValueAs",
       "pos": [
         -195.29505920410156,
         2700.445556640625
       ],
       "size": [
-        270,
+        350.767822265625,
         118
       ],
       "flags": {},
-      "order": 87,
+      "order": 86,
       "mode": 0,
       "inputs": [
         {
@@ -4805,353 +5258,40 @@
           "widget": {
             "name": "json_value"
           },
-          "link": 343
+          "link": 228
         }
       ],
       "outputs": [
         {
           "name": "as_bool",
           "type": "BOOL",
-          "links": null
+          "links": []
         },
         {
           "name": "as_int",
           "type": "INT",
-          "links": null
+          "links": []
         },
         {
           "name": "as_float",
           "type": "FLOAT",
-          "links": null
+          "links": []
         },
         {
           "name": "as_string",
           "type": "STRING",
           "links": [
-            344
+            275
           ]
         }
       ],
       "properties": {
-        "Node name for S&R": "SmnJSONGetValueAs"
+        "aux_id": "",
+        "Node name for S&R": "SmnJSONGetValueAs",
+        "ver": "unknown"
       },
       "widgets_values": [
         ""
-      ]
-    },
-    {
-      "id": 202,
-      "type": "SmnJSONGetValueAs",
-      "pos": [
-        -193.91966247558594,
-        2860.245361328125
-      ],
-      "size": [
-        270,
-        118
-      ],
-      "flags": {},
-      "order": 88,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "json_value",
-          "type": "STRING",
-          "widget": {
-            "name": "json_value"
-          },
-          "link": 345
-        }
-      ],
-      "outputs": [
-        {
-          "name": "as_bool",
-          "type": "BOOL",
-          "links": null
-        },
-        {
-          "name": "as_int",
-          "type": "INT",
-          "links": null
-        },
-        {
-          "name": "as_float",
-          "type": "FLOAT",
-          "links": null
-        },
-        {
-          "name": "as_string",
-          "type": "STRING",
-          "links": [
-            346
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "SmnJSONGetValueAs"
-      },
-      "widgets_values": [
-        ""
-      ]
-    },
-    {
-      "id": 173,
-      "type": "SmnJSONGetKeyValue",
-      "pos": [
-        -220.31301879882812,
-        -2498.230712890625
-      ],
-      "size": [
-        270,
-        82
-      ],
-      "flags": {},
-      "order": 24,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "json_string",
-          "type": "STRING",
-          "widget": {
-            "name": "json_string"
-          },
-          "link": 281
-        }
-      ],
-      "outputs": [
-        {
-          "name": "value",
-          "type": "STRING",
-          "links": [
-            284,
-            289
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "SmnJSONGetKeyValue"
-      },
-      "widgets_values": [
-        "{}",
-        "world"
-      ]
-    },
-    {
-      "id": 178,
-      "type": "SmnJSONGetKeyValue",
-      "pos": [
-        -203.952880859375,
-        -1615.2957763671875
-      ],
-      "size": [
-        270,
-        82
-      ],
-      "flags": {},
-      "order": 25,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "json_string",
-          "type": "STRING",
-          "widget": {
-            "name": "json_string"
-          },
-          "link": 293
-        }
-      ],
-      "outputs": [
-        {
-          "name": "value",
-          "type": "STRING",
-          "links": [
-            295
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "SmnJSONGetKeyValue"
-      },
-      "widgets_values": [
-        "{}",
-        "world"
-      ]
-    },
-    {
-      "id": 9,
-      "type": "SaveImage",
-      "pos": [
-        2110.6865234375,
-        -2490.408203125
-      ],
-      "size": [
-        553.3211059570312,
-        438.49810791015625
-      ],
-      "flags": {},
-      "order": 119,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 9
-        }
-      ],
-      "outputs": [],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.34"
-      },
-      "widgets_values": [
-        "ComfyUI"
-      ]
-    },
-    {
-      "id": 51,
-      "type": "PrepImageForClipVision",
-      "pos": [
-        -996.6207275390625,
-        657.6259765625
-      ],
-      "size": [
-        242.96958923339844,
-        106
-      ],
-      "flags": {},
-      "order": 14,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 86
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            84
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui_ipadapter_plus",
-        "ver": "2.0.0",
-        "Node name for S&R": "PrepImageForClipVision"
-      },
-      "widgets_values": [
-        "LANCZOS",
-        "center",
-        0.05000000000000001
-      ]
-    },
-    {
-      "id": 102,
-      "type": "IPAdapterAdvanced",
-      "pos": [
-        926.4692993164062,
-        -154.6449737548828
-      ],
-      "size": [
-        270,
-        278
-      ],
-      "flags": {},
-      "order": 70,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 173
-        },
-        {
-          "name": "ipadapter",
-          "type": "IPADAPTER",
-          "link": 172
-        },
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 174
-        },
-        {
-          "name": "image_negative",
-          "shape": 7,
-          "type": "IMAGE",
-          "link": null
-        },
-        {
-          "name": "attn_mask",
-          "shape": 7,
-          "type": "MASK",
-          "link": null
-        },
-        {
-          "name": "clip_vision",
-          "shape": 7,
-          "type": "CLIP_VISION",
-          "link": 171
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            155,
-            246,
-            247,
-            248
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui_ipadapter_plus",
-        "ver": "2.0.0",
-        "Node name for S&R": "IPAdapterAdvanced"
-      },
-      "widgets_values": [
-        1.0000000000000002,
-        "style transfer",
-        "concat",
-        0,
-        1,
-        "K+V"
-      ]
-    },
-    {
-      "id": 203,
-      "type": "SmnInputFloat",
-      "pos": [
-        -1343.541748046875,
-        1042.70361328125
-      ],
-      "size": [
-        270,
-        58
-      ],
-      "flags": {},
-      "order": 4,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "value",
-          "type": "FLOAT",
-          "links": [
-            347
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "SmnInputFloat"
-      },
-      "widgets_values": [
-        0.8
       ]
     },
     {
@@ -5190,20 +5330,20 @@
         "Node name for S&R": "LoadImage"
       },
       "widgets_values": [
-        "in_style_01.png",
+        "in_style_04.png",
         "image"
       ]
     },
     {
-      "id": 204,
+      "id": 55,
       "type": "SmnInputString",
       "pos": [
         -2075.673583984375,
         -1052.799072265625
       ],
       "size": [
-        961.553466796875,
-        1210.47900390625
+        974.5343017578125,
+        1203.4608154296875
       ],
       "flags": {},
       "order": 6,
@@ -5214,95 +5354,19 @@
           "name": "value",
           "type": "STRING",
           "links": [
-            348
+            277
           ]
         }
       ],
+      "title": "INPUT: Config",
       "properties": {
-        "Node name for S&R": "SmnInputString"
+        "aux_id": "",
+        "Node name for S&R": "SmnInputString",
+        "ver": "unknown"
       },
       "widgets_values": [
-        "{\n  \"world\": {\n    \"name\": \"Eldoria\",\n    \"description\": \"Eldoria is a realm of enchanted forests and misty highlands, where ancient magic weaves through every living thing. The map shows the different biomes, from forests, deserts and highlands\",\n    \"geography\": {\n      \"continents\": [\n        {\n          \"name\": \"Faerhaven\",\n          \"description\": \"A verdant land of rolling hills, silver rivers, and colossal oak groves inhabited by hidden fey courts.\"\n        },\n        {\n          \"name\": \"Dreadmoor\",\n          \"description\": \"A brooding swampland shrouded in perpetual twilight, its peat-black waters home to will-o’-wisps and marsh wyrms.\"\n        }\n      ],\n      \"oceans\": [\n        {\n          \"name\": \"Sea of Whispers\",\n          \"description\": \"A deep, sapphire ocean where ghostly voices drift on the wind, and ancient shipwrecks lie beneath ethereal waves.\"\n        }\n      ],\n      \"landmarks\": [\n        {\n          \"name\": \"Silverspine Keep\",\n          \"type\": \"Castle\",\n          \"location\": \"Lat: 51.200, Lon: -10.450\",\n          \"description\": \"A fortress carved into a jagged mountain ridge, its towers glinting with moonlight and warded by dragonbone runes.\"\n        }\n      ]\n    },\n    \"nations\": [\n      {\n        \"name\": \"Kingdom of Aurélith\",\n        \"capital\": \"Goldhaven\",\n        \"government\": \"Hereditary Monarchy\",\n        \"description\": \"A prosperous kingdom famed for its golden wheat fields and knightly orders who swear fealty to a benevolent queen.\"\n      },\n      {\n        \"name\": \"Sylvan Enclave\",\n        \"capital\": \"Moonlight Glade\",\n        \"government\": \"Council of Eldertrees\",\n        \"description\": \"A secretive society of forest guardians—elves and treants—who protect the ancient groves and commune with spirits of nature.\"\n      }\n    ]\n  },\n  \"cultures\": [\n    {\n      \"name\": \"Aurélian\",\n      \"customs\": \"Aurélians celebrate the Harvest of Dawn each autumn, lighting lanterns and dancing in the golden fields to honor the sun’s bounty.\",\n      \"language\": \"Aurélic\",\n      \"religion\": {\n        \"name\": \"The Radiant Circle\",\n        \"pantheon\": [\n          {\n            \"deity\": \"Solara, Goddess of Light\",\n            \"domains\": [\"Sun\", \"Life\"]\n          },\n          {\n            \"deity\": \"Varruk, God of Steel\",\n            \"domains\": [\"War\", \"Craftsmanship\"]\n          }\n        ]\n      }\n    },\n    {\n      \"name\": \"Sylvan\",\n      \"customs\": \"Sylvans hold silent moonlit vigils among the ancient trees, offering songs to the forest spirits and weaving wreaths of living vines.\",\n      \"language\": \"Sylvian\",\n      \"religion\": {\n        \"name\": \"The Verdant Path\",\n        \"pantheon\": [\n          {\n            \"deity\": \"Lyranna, Maiden of Growth\",\n            \"domains\": [\"Nature\", \"Healing\"]\n          },\n          {\n            \"deity\": \"Thalos, Lord of Beasts\",\n            \"domains\": [\"Animals\", \"Hunt\"]\n          }\n        ]\n      }\n    }\n  ],\n  \"history\": {\n    \"ancient_events\": [\n      {\n        \"year\": -1024,\n        \"title\": \"The Sundering of Stars\",\n        \"summary\": \"A celestial rift tore across the skies, infusing Eldoria with raw magic and awakening ancient dragons from slumber.\"\n      },\n      {\n        \"year\": -332,\n        \"title\": \"Treaty of Silverspine\",\n        \"summary\": \"After decades of border skirmishes, Aurélith’s queen signed peace with the Sylvan Enclave, forging an alliance against rising darkness.\"\n      }\n    ]\n  },\n  \"magic_system\": {\n    \"types\": [\n      {\n        \"name\": \"Runecraft\",\n        \"description\": \"Mages inscribe glowing runes on stone and metal to channel elemental forces; each rune requires a vow to a spirit of the land.\"\n      },\n      {\n        \"name\": \"Glamourweaving\",\n        \"description\": \"A subtle fae art that manipulates perception, creating illusions that can heal or deceive depending on the weaver’s intent.\"\n      }\n    ]\n  },\n  \"fauna_flora\": {\n    \"fauna\": [\n      {\n        \"name\": \"Moonshadow Stag\",\n        \"type\": \"Deer\",\n        \"habitat\": \"Faerhaven Glades\",\n        \"description\": \"A magnificent white stag whose antlers glow under the moon; said to grant visions of the future to those who follow it.\"\n      },\n      {\n        \"name\": \"Fen Wyrm\",\n        \"type\": \"Serpent\",\n        \"habitat\": \"Dreadmoor Marshes\",\n        \"description\": \"A massive, eel-like creature with phosphorescent scales, gliding through misty waters and emerging only at dusk.\"\n      }\n    ],\n    \"flora\": [\n      {\n        \"name\": \"Starblossom Lily\",\n        \"type\": \"Flower\",\n        \"region\": \"Silverspine Highlands\",\n        \"description\": \"A silvery-white bloom that opens only under starlight; its petals can be brewed into a potion that wards off nightmares.\"\n      },\n      {\n        \"name\": \"Frostfern\",\n        \"type\": \"Fern\",\n        \"region\": \"Dreadmoor Swamps\",\n        \"description\": \"A blue-tinged fern that thrives in cold mist; its leaves can freeze water on contact and are used by healers for ice-bound poultices.\"\n      }\n    ]\n  }\n}\n"
+        "{\n  \"world\": {\n    \"name\": \"Vvardenfell\",\n    \"description\": \"Vvardenfell is a volcanic island dominated by the looming Red Mountain, its ash-covered landscapes dotted with giant mushrooms and ancient Dwemer ruins. The ash storms and fumeroles shape the harsh terrain, while pockets of lush greenery cling to rock and cliffside.\",\n    \"geography\": {\n      \"continents\": [\n        {\n          \"name\": \"Northeast Plateau\",\n          \"description\": \"A barren expanse of blackened ash and obsidian flows beneath the towering caldera of Red Mountain, home to restless ash spawn and scattered Telvanni mushroom towers.\"\n        },\n        {\n          \"name\": \"West Sea Shore\",\n          \"description\": \"A coastal belt of black sand beaches and rocky coves along the Inner Sea, where fishermen harvest kwama and sailors dock at the port of Seyda Neen.\"\n        }\n      ],\n      \"oceans\": [\n        {\n          \"name\": \"Inner Sea\",\n          \"description\": \"A brackish inlet separating Vvardenfell from the mainland of Morrowind, its waters teeming with algal blooms and washed-over wrecks of ancient craglorn vessels.\"\n        }\n      ],\n      \"landmarks\": [\n        {\n          \"name\": \"Red Mountain\",\n          \"type\": \"Volcano\",\n          \"location\": \"Lat: 45.233, Lon: -42.117\",\n          \"description\": \"A colossal, perpetually smoking volcano at the island’s center. Its slopes are riddled with Dwemer ruins, Telvanni strongholds, and the heart of the ash wastes.\"\n        },\n        {\n          \"name\": \"Balmora Hlaalu Estate\",\n          \"type\": \"City\",\n          \"location\": \"Lat: 45.600, Lon: -44.300\",\n          \"description\": \"A bustling port town under House Hlaalu’s dominion, its canals and stone bridges linking market stalls, guild halls, and the grand council manor.\"\n        }\n      ]\n    },\n    \"nations\": [\n      {\n        \"name\": \"Great House Hlaalu\",\n        \"capital\": \"Balmora\",\n        \"government\": \"Feudal House\",\n        \"description\": \"A politically savvy House that prizes trade and commerce, ruling the western settlements with an eye toward profit and alliances with outsiders.\"\n      },\n      {\n        \"name\": \"Great House Redoran\",\n        \"capital\": \"Ald'ruhn\",\n        \"government\": \"Feudal House\",\n        \"description\": \"A militaristic House devoted to honor and defense, based beneath the mushroom towers of Ald'ruhn and sworn to protect Dunmer traditions.\"\n      }\n    ]\n  },\n  \"cultures\": [\n    {\n      \"name\": \"Dunmer\",\n      \"customs\": \"Dunmer honor their ancestors through nightly ash-veil vigils, leaving offerings of saltrice cakes and chanting ancient invocations to ward off daedric influence.\",\n      \"language\": \"Dunmeri\",\n      \"religion\": {\n        \"name\": \"Tribunal Temple\",\n        \"pantheon\": [\n          {\n            \"deity\": \"Vivec, Warrior-Poet\",\n            \"domains\": [\"War\", \"Mercy\"]\n          },\n          {\n            \"deity\": \"Almalexia, Lady of Mercy\",\n            \"domains\": [\"Healing\", \"Protection\"]\n          }\n        ]\n      }\n    },\n    {\n      \"name\": \"Ashlander\",\n      \"customs\": \"Ashlanders roam the ash wastes in tribes, conducting rites at fumeroles and weaving animal hides into sigils to protect against Corprus and ash storms.\",\n      \"language\": \"Dunmeri\",\n      \"religion\": {\n        \"name\": \"The Ashlander Spirits\",\n        \"pantheon\": [\n          {\n            \"deity\": \"Naagran Dagon, Lord of Change\",\n            \"domains\": [\"Daedra\", \"Chaos\"]\n          },\n          {\n            \"deity\": \"Sheogorath, Mad God\",\n            \"domains\": [\"Madness\", \"Trickery\"]\n          }\n        ]\n      }\n    }\n  ],\n  \"history\": {\n    \"ancient_events\": [\n      {\n        \"year\": 700,\n        \"title\": \"Battle of Red Mountain\",\n        \"summary\": \"The climactic conflict that shattered the Dwemer civilization and forged the Tribunal. Dagoth Ur’s betrayal led to Dwemer disappearance and the rise of Vivec as a living god.\"\n      },\n      {\n        \"year\": 702,\n        \"title\": \"Ascension of the Tribunal\",\n        \"summary\": \"Vivec, Almalexia, and Sotha Sil completed the Heart of Lorkhan, ascending to godhood and establishing the Tribunal Temple as the unifying faith of the Dunmer.\"\n      }\n    ]\n  },\n  \"magic_system\": {\n    \"types\": [\n      {\n        \"name\": \"Soul Gem Enchanting\",\n        \"description\": \"Artisans trap creature souls in crystal gems and use them to imbuing weapons and armor with magical effects, from fire damage to mending wounds.\"\n      },\n      {\n        \"name\": \"Temple Writs\",\n        \"description\": \"Priests of the Tribunal invoke Almsivi blessings through sacred writs and songs, channeling divine magicka to heal, shield, or reveal hidden truths.\"\n      }\n    ]\n  },\n  \"fauna_flora\": {\n    \"fauna\": [\n      {\n        \"name\": \"Netch\",\n        \"type\": \"Leviathan\",\n        \"habitat\": \"West Sea Shore\",\n        \"description\": \"Gentle, floating leviathans whose pulsating membranes glow at dusk. Mounted by nobles, these creatures drift over the ash dunes.\"\n      },\n      {\n        \"name\": \"Guar\",\n        \"type\": \"Beast\",\n        \"habitat\": \"Ashlands\",\n        \"description\": \"Sturdy two-legged beasts used as pack animals by the Ashlanders. Their thick hides and broad hooves navigate the ash-choked terrain with ease.\"\n      }\n    ],\n    \"flora\": [\n      {\n        \"name\": \"Nirnroot\",\n        \"type\": \"Plant\",\n        \"region\": \"East Gash\",\n        \"description\": \"A luminescent waterweed with distinct chiming tones. Alchemists prize its leaves and stalks for powerful potions and poisons.\"\n      },\n      {\n        \"name\": \"Corprus Fungus\",\n        \"type\": \"Fungus\",\n        \"region\": \"Ashlands Caves\",\n        \"description\": \"A grotesque fungal growth that induces Corprus disease in those who inhale its spores. Used cautiously in certain Daedric rituals.\"\n      }\n    ]\n  }\n}\n"
       ]
-    },
-    {
-      "id": 166,
-      "type": "Reroute",
-      "pos": [
-        -415.3927001953125,
-        139.44151306152344
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 13,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "widget": {
-            "name": "value"
-          },
-          "link": 347
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "FLOAT",
-          "links": [
-            251
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 168,
-      "type": "Reroute",
-      "pos": [
-        785.634521484375,
-        142.01019287109375
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 40,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "widget": {
-            "name": "value"
-          },
-          "link": 250
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "FLOAT",
-          "links": [
-            252,
-            253,
-            254,
-            255
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
     }
   ],
   "links": [
@@ -5523,6 +5587,22 @@
       "*"
     ],
     [
+      75,
+      57,
+      0,
+      62,
+      0,
+      "STRING"
+    ],
+    [
+      77,
+      62,
+      0,
+      63,
+      0,
+      "STRING"
+    ],
+    [
       84,
       51,
       0,
@@ -5545,6 +5625,22 @@
       24,
       0,
       "*"
+    ],
+    [
+      90,
+      63,
+      3,
+      6,
+      1,
+      "STRING"
+    ],
+    [
+      93,
+      68,
+      0,
+      57,
+      0,
+      "STRING"
     ],
     [
       94,
@@ -5643,6 +5739,14 @@
       "*"
     ],
     [
+      111,
+      83,
+      0,
+      79,
+      0,
+      "STRING"
+    ],
+    [
       113,
       80,
       0,
@@ -5707,6 +5811,14 @@
       "CLIP"
     ],
     [
+      124,
+      68,
+      0,
+      83,
+      0,
+      "STRING"
+    ],
+    [
       129,
       35,
       0,
@@ -5729,6 +5841,46 @@
       82,
       0,
       "IMAGE"
+    ],
+    [
+      132,
+      79,
+      0,
+      91,
+      0,
+      "STRING"
+    ],
+    [
+      137,
+      91,
+      0,
+      90,
+      0,
+      "STRING"
+    ],
+    [
+      142,
+      90,
+      0,
+      92,
+      0,
+      "STRING"
+    ],
+    [
+      145,
+      92,
+      0,
+      87,
+      0,
+      "STRING"
+    ],
+    [
+      147,
+      87,
+      3,
+      80,
+      1,
+      "STRING"
     ],
     [
       148,
@@ -5769,6 +5921,14 @@
       97,
       0,
       "*"
+    ],
+    [
+      153,
+      111,
+      3,
+      99,
+      1,
+      "STRING"
     ],
     [
       154,
@@ -5825,6 +5985,46 @@
       105,
       0,
       "IMAGE"
+    ],
+    [
+      161,
+      106,
+      0,
+      107,
+      0,
+      "STRING"
+    ],
+    [
+      162,
+      107,
+      0,
+      108,
+      0,
+      "STRING"
+    ],
+    [
+      163,
+      108,
+      0,
+      109,
+      0,
+      "STRING"
+    ],
+    [
+      164,
+      109,
+      0,
+      110,
+      0,
+      "STRING"
+    ],
+    [
+      165,
+      110,
+      0,
+      111,
+      0,
+      "STRING"
     ],
     [
       167,
@@ -5899,6 +6099,14 @@
       "VAE"
     ],
     [
+      178,
+      68,
+      0,
+      106,
+      0,
+      "STRING"
+    ],
+    [
       183,
       115,
       0,
@@ -5913,6 +6121,14 @@
       114,
       0,
       "*"
+    ],
+    [
+      185,
+      132,
+      3,
+      116,
+      1,
+      "STRING"
     ],
     [
       186,
@@ -5987,6 +6203,14 @@
       "*"
     ],
     [
+      202,
+      68,
+      0,
+      123,
+      0,
+      "STRING"
+    ],
+    [
       203,
       14,
       0,
@@ -6025,6 +6249,38 @@
       121,
       1,
       "VAE"
+    ],
+    [
+      213,
+      109,
+      0,
+      133,
+      0,
+      "STRING"
+    ],
+    [
+      214,
+      111,
+      3,
+      134,
+      0,
+      "*"
+    ],
+    [
+      215,
+      133,
+      0,
+      135,
+      0,
+      "STRING"
+    ],
+    [
+      216,
+      135,
+      3,
+      136,
+      0,
+      "*"
     ],
     [
       217,
@@ -6091,6 +6347,22 @@
       "*"
     ],
     [
+      227,
+      130,
+      0,
+      147,
+      0,
+      "STRING"
+    ],
+    [
+      228,
+      147,
+      0,
+      140,
+      0,
+      "STRING"
+    ],
+    [
       230,
       150,
       0,
@@ -6121,6 +6393,38 @@
       151,
       0,
       "*"
+    ],
+    [
+      234,
+      154,
+      3,
+      153,
+      0,
+      "*"
+    ],
+    [
+      235,
+      155,
+      0,
+      154,
+      0,
+      "STRING"
+    ],
+    [
+      236,
+      63,
+      3,
+      152,
+      0,
+      "*"
+    ],
+    [
+      237,
+      57,
+      0,
+      155,
+      0,
+      "STRING"
     ],
     [
       238,
@@ -6155,6 +6459,38 @@
       "*"
     ],
     [
+      242,
+      162,
+      3,
+      161,
+      0,
+      "*"
+    ],
+    [
+      243,
+      163,
+      0,
+      162,
+      0,
+      "STRING"
+    ],
+    [
+      244,
+      87,
+      3,
+      160,
+      0,
+      "*"
+    ],
+    [
+      245,
+      90,
+      0,
+      163,
+      0,
+      "STRING"
+    ],
+    [
       246,
       102,
       0,
@@ -6177,6 +6513,14 @@
       120,
       0,
       "MODEL"
+    ],
+    [
+      249,
+      164,
+      0,
+      166,
+      0,
+      "*"
     ],
     [
       250,
@@ -6227,344 +6571,64 @@
       "FLOAT"
     ],
     [
-      281,
-      68,
+      264,
+      123,
       0,
-      173,
-      0,
-      "STRING"
-    ],
-    [
-      284,
-      173,
-      0,
-      174,
+      127,
       0,
       "STRING"
     ],
     [
-      286,
-      174,
+      267,
+      127,
       0,
-      175,
-      0,
-      "STRING"
-    ],
-    [
-      287,
-      175,
-      3,
-      6,
-      1,
-      "STRING"
-    ],
-    [
-      288,
-      175,
-      3,
-      152,
-      0,
-      "*"
-    ],
-    [
-      289,
-      173,
-      0,
-      176,
+      130,
       0,
       "STRING"
     ],
     [
-      291,
-      176,
+      269,
+      130,
       0,
-      177,
-      0,
-      "STRING"
-    ],
-    [
-      292,
-      177,
-      3,
-      153,
-      0,
-      "*"
-    ],
-    [
-      293,
-      68,
-      0,
-      178,
+      132,
       0,
       "STRING"
     ],
     [
-      295,
-      178,
+      272,
+      170,
       0,
-      180,
-      0,
-      "STRING"
-    ],
-    [
-      297,
-      180,
-      0,
-      181,
+      171,
       0,
       "STRING"
     ],
     [
-      299,
-      181,
+      273,
+      130,
       0,
-      182,
-      0,
-      "STRING"
-    ],
-    [
-      302,
-      182,
-      0,
-      183,
+      170,
       0,
       "STRING"
     ],
     [
-      304,
-      183,
-      0,
-      184,
-      0,
-      "STRING"
-    ],
-    [
-      305,
-      184,
-      3,
-      80,
-      1,
-      "STRING"
-    ],
-    [
-      306,
-      184,
-      3,
-      160,
-      0,
-      "*"
-    ],
-    [
-      307,
-      182,
-      0,
-      185,
-      0,
-      "STRING"
-    ],
-    [
-      309,
-      185,
-      0,
-      186,
-      0,
-      "STRING"
-    ],
-    [
-      310,
-      186,
-      3,
-      161,
-      0,
-      "*"
-    ],
-    [
-      311,
-      68,
-      0,
-      187,
-      0,
-      "STRING"
-    ],
-    [
-      313,
-      187,
-      0,
-      188,
-      0,
-      "STRING"
-    ],
-    [
-      315,
-      188,
-      0,
-      189,
-      0,
-      "STRING"
-    ],
-    [
-      317,
-      189,
-      0,
-      190,
-      0,
-      "STRING"
-    ],
-    [
-      320,
-      190,
-      0,
-      191,
-      0,
-      "STRING"
-    ],
-    [
-      322,
-      191,
-      0,
-      192,
-      0,
-      "STRING"
-    ],
-    [
-      323,
-      192,
-      3,
-      99,
-      1,
-      "STRING"
-    ],
-    [
-      324,
-      192,
-      3,
-      134,
-      0,
-      "*"
-    ],
-    [
-      325,
-      190,
-      0,
-      193,
-      0,
-      "STRING"
-    ],
-    [
-      327,
-      193,
-      0,
-      194,
-      0,
-      "STRING"
-    ],
-    [
-      328,
-      194,
-      3,
-      136,
-      0,
-      "*"
-    ],
-    [
-      329,
-      68,
-      0,
-      195,
-      0,
-      "STRING"
-    ],
-    [
-      331,
-      195,
-      0,
-      196,
-      0,
-      "STRING"
-    ],
-    [
-      333,
-      196,
-      0,
-      197,
-      0,
-      "STRING"
-    ],
-    [
-      337,
-      197,
-      0,
-      198,
-      0,
-      "STRING"
-    ],
-    [
-      338,
-      198,
-      3,
-      116,
-      1,
-      "STRING"
-    ],
-    [
-      339,
-      197,
-      0,
-      199,
-      0,
-      "STRING"
-    ],
-    [
-      341,
-      197,
-      0,
-      200,
-      0,
-      "STRING"
-    ],
-    [
-      343,
-      199,
-      0,
-      201,
-      0,
-      "STRING"
-    ],
-    [
-      344,
-      201,
-      3,
-      141,
-      0,
-      "*"
-    ],
-    [
-      345,
-      200,
-      0,
-      202,
-      0,
-      "STRING"
-    ],
-    [
-      346,
-      202,
+      274,
+      171,
       3,
       142,
       0,
       "*"
     ],
     [
-      347,
-      203,
-      0,
-      166,
+      275,
+      140,
+      3,
+      141,
       0,
       "*"
     ],
     [
-      348,
-      204,
+      277,
+      55,
       0,
       68,
       0,
@@ -6592,7 +6656,7 @@
         -1373.0098876953125,
         194.2456512451172,
         648.660888671875,
-        928.8804931640625
+        1000.9854736328125
       ],
       "color": "#A88",
       "font_size": 24,
@@ -6628,8 +6692,8 @@
       "id": 5,
       "title": "[Landmark 0] Grayspire Citadel",
       "bounding": [
-        -230.02561950683594,
-        223.8045196533203,
+        -238.07275390625,
+        494.0231628417969,
         2924.46435546875,
         1228.5133056640625
       ],
@@ -6654,10 +6718,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.5209868481925432,
+      "scale": 0.5209868481925359,
       "offset": [
-        2101.4673466808345,
-        142.15585896703172
+        2839.8308253017713,
+        880.6666632476123
       ]
     },
     "frontendVersion": "1.19.9"
