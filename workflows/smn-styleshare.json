@@ -1136,9 +1136,8 @@
         }
       ],
       "properties": {
-        "aux_id": "your_github_username/smn_comfy",
-        "Node name for S&R": "SmnJSONGetKeyValue",
-        "ver": "unknown"
+        
+        "Node name for S&R": "SmnJSONGetKeyValue"
       },
       "widgets_values": [
         "{}",
@@ -1179,9 +1178,8 @@
         }
       ],
       "properties": {
-        "aux_id": "your_github_username/smn_comfy",
-        "Node name for S&R": "SmnJSONGetKeyValue",
-        "ver": "unknown"
+        
+        "Node name for S&R": "SmnJSONGetKeyValue"
       },
       "widgets_values": [
         "{}",
@@ -2100,9 +2098,8 @@
         }
       ],
       "properties": {
-        "aux_id": "",
-        "Node name for S&R": "SmnJSONGetKeyValue",
-        "ver": "unknown"
+        
+        "Node name for S&R": "SmnJSONGetKeyValue"
       },
       "widgets_values": [
         "{}",
@@ -2533,9 +2530,8 @@
         }
       ],
       "properties": {
-        "aux_id": "your_github_username/smn_comfy",
-        "Node name for S&R": "SmnJSONGetValueAs",
-        "ver": "unknown"
+        
+        "Node name for S&R": "SmnJSONGetValueAs"
       },
       "widgets_values": [
         ""
@@ -2576,9 +2572,8 @@
         }
       ],
       "properties": {
-        "aux_id": "your_github_username/smn_comfy",
-        "Node name for S&R": "SmnJSONGetKeyValue",
-        "ver": "unknown"
+        
+        "Node name for S&R": "SmnJSONGetKeyValue"
       },
       "widgets_values": [
         "{}",
@@ -2990,9 +2985,8 @@
         }
       ],
       "properties": {
-        "aux_id": "",
-        "Node name for S&R": "SmnJSONGetValueAs",
-        "ver": "unknown"
+        
+        "Node name for S&R": "SmnJSONGetValueAs"
       },
       "widgets_values": [
         ""
@@ -3032,9 +3026,8 @@
         }
       ],
       "properties": {
-        "aux_id": "",
-        "Node name for S&R": "SmnJSONGetKeyValue",
-        "ver": "unknown"
+        
+        "Node name for S&R": "SmnJSONGetKeyValue"
       },
       "widgets_values": [
         "{}",
@@ -3090,9 +3083,8 @@
         }
       ],
       "properties": {
-        "aux_id": "",
-        "Node name for S&R": "SmnJSONGetValueAs",
-        "ver": "unknown"
+        
+        "Node name for S&R": "SmnJSONGetValueAs"
       },
       "widgets_values": [
         ""
@@ -3132,9 +3124,8 @@
         }
       ],
       "properties": {
-        "aux_id": "",
-        "Node name for S&R": "SmnJSONGetKeyValue",
-        "ver": "unknown"
+        
+        "Node name for S&R": "SmnJSONGetKeyValue"
       },
       "widgets_values": [
         "{}",
@@ -3176,9 +3167,8 @@
         }
       ],
       "properties": {
-        "aux_id": "your_github_username/smn_comfy",
-        "Node name for S&R": "SmnJSONGetIndexValue",
-        "ver": "unknown"
+        
+        "Node name for S&R": "SmnJSONGetIndexValue"
       },
       "widgets_values": [
         "[]",
@@ -3219,9 +3209,8 @@
         }
       ],
       "properties": {
-        "aux_id": "your_github_username/smn_comfy",
-        "Node name for S&R": "SmnJSONGetKeyValue",
-        "ver": "unknown"
+        
+        "Node name for S&R": "SmnJSONGetKeyValue"
       },
       "widgets_values": [
         "{}",
@@ -3278,9 +3267,8 @@
         }
       ],
       "properties": {
-        "aux_id": "your_github_username/smn_comfy",
-        "Node name for S&R": "SmnJSONGetValueAs",
-        "ver": "unknown"
+        
+        "Node name for S&R": "SmnJSONGetValueAs"
       },
       "widgets_values": [
         ""
@@ -3320,9 +3308,8 @@
         }
       ],
       "properties": {
-        "aux_id": "your_github_username/smn_comfy",
-        "Node name for S&R": "SmnJSONGetKeyValue",
-        "ver": "unknown"
+        
+        "Node name for S&R": "SmnJSONGetKeyValue"
       },
       "widgets_values": [
         "{}",
@@ -3378,9 +3365,8 @@
         }
       ],
       "properties": {
-        "aux_id": "your_github_username/smn_comfy",
-        "Node name for S&R": "SmnJSONGetValueAs",
-        "ver": "unknown"
+        
+        "Node name for S&R": "SmnJSONGetValueAs"
       },
       "widgets_values": [
         ""
@@ -3455,9 +3441,8 @@
         }
       ],
       "properties": {
-        "aux_id": "your_github_username/smn_comfy",
-        "Node name for S&R": "SmnJSONGetKeyValue",
-        "ver": "unknown"
+        
+        "Node name for S&R": "SmnJSONGetKeyValue"
       },
       "widgets_values": [
         "{}",
@@ -3514,9 +3499,8 @@
         }
       ],
       "properties": {
-        "aux_id": "your_github_username/smn_comfy",
-        "Node name for S&R": "SmnJSONGetValueAs",
-        "ver": "unknown"
+        
+        "Node name for S&R": "SmnJSONGetValueAs"
       },
       "widgets_values": [
         ""
@@ -3556,9 +3540,8 @@
         }
       ],
       "properties": {
-        "aux_id": "your_github_username/smn_comfy",
-        "Node name for S&R": "SmnJSONGetKeyValue",
-        "ver": "unknown"
+        
+        "Node name for S&R": "SmnJSONGetKeyValue"
       },
       "widgets_values": [
         "{}",
@@ -3629,9 +3612,8 @@
         }
       ],
       "properties": {
-        "aux_id": "your_github_username/smn_comfy",
-        "Node name for S&R": "SmnJSONGetKeyValue",
-        "ver": "unknown"
+        
+        "Node name for S&R": "SmnJSONGetKeyValue"
       },
       "widgets_values": [
         "{}",
@@ -4116,9 +4098,8 @@
         }
       ],
       "properties": {
-        "aux_id": "",
-        "Node name for S&R": "SmnJSONGetValueAs",
-        "ver": "unknown"
+        
+        "Node name for S&R": "SmnJSONGetValueAs"
       },
       "widgets_values": [
         ""
@@ -4188,9 +4169,8 @@
         }
       ],
       "properties": {
-        "aux_id": "",
-        "Node name for S&R": "SmnJSONGetKeyValue",
-        "ver": "unknown"
+        
+        "Node name for S&R": "SmnJSONGetKeyValue"
       },
       "widgets_values": [
         "{}",
@@ -4231,9 +4211,8 @@
         }
       ],
       "properties": {
-        "aux_id": "",
-        "Node name for S&R": "SmnJSONGetKeyValue",
-        "ver": "unknown"
+        
+        "Node name for S&R": "SmnJSONGetKeyValue"
       },
       "widgets_values": [
         "{}",
@@ -4276,9 +4255,8 @@
         }
       ],
       "properties": {
-        "aux_id": "",
-        "Node name for S&R": "SmnJSONGetIndexValue",
-        "ver": "unknown"
+        
+        "Node name for S&R": "SmnJSONGetIndexValue"
       },
       "widgets_values": [
         "[]",
@@ -4369,9 +4347,8 @@
         }
       ],
       "properties": {
-        "aux_id": "",
-        "Node name for S&R": "SmnJSONGetValueAs",
-        "ver": "unknown"
+        
+        "Node name for S&R": "SmnJSONGetValueAs"
       },
       "widgets_values": [
         ""
@@ -5013,9 +4990,8 @@
       ],
       "title": "Latent Denoise",
       "properties": {
-        "aux_id": "your_github_username/smn_comfy",
-        "Node name for S&R": "SmnInputFloat",
-        "ver": "unknown"
+        
+        "Node name for S&R": "SmnInputFloat"
       },
       "widgets_values": [
         1.07
@@ -5055,9 +5031,8 @@
         }
       ],
       "properties": {
-        "aux_id": "",
-        "Node name for S&R": "SmnJSONGetKeyValue",
-        "ver": "unknown"
+        
+        "Node name for S&R": "SmnJSONGetKeyValue"
       },
       "widgets_values": [
         "{}",
@@ -5098,9 +5073,8 @@
         }
       ],
       "properties": {
-        "aux_id": "",
-        "Node name for S&R": "SmnJSONGetKeyValue",
-        "ver": "unknown"
+        
+        "Node name for S&R": "SmnJSONGetKeyValue"
       },
       "widgets_values": [
         "{}",
@@ -5142,9 +5116,8 @@
         }
       ],
       "properties": {
-        "aux_id": "",
-        "Node name for S&R": "SmnJSONGetIndexValue",
-        "ver": "unknown"
+        
+        "Node name for S&R": "SmnJSONGetIndexValue"
       },
       "widgets_values": [
         "[]",
@@ -5185,9 +5158,8 @@
         }
       ],
       "properties": {
-        "aux_id": "",
-        "Node name for S&R": "SmnJSONGetKeyValue",
-        "ver": "unknown"
+        
+        "Node name for S&R": "SmnJSONGetKeyValue"
       },
       "widgets_values": [
         "{}",
@@ -5228,9 +5200,8 @@
         }
       ],
       "properties": {
-        "aux_id": "",
-        "Node name for S&R": "SmnJSONGetKeyValue",
-        "ver": "unknown"
+        
+        "Node name for S&R": "SmnJSONGetKeyValue"
       },
       "widgets_values": [
         "{}",
@@ -5286,9 +5257,8 @@
         }
       ],
       "properties": {
-        "aux_id": "",
-        "Node name for S&R": "SmnJSONGetValueAs",
-        "ver": "unknown"
+        
+        "Node name for S&R": "SmnJSONGetValueAs"
       },
       "widgets_values": [
         ""
@@ -5360,9 +5330,8 @@
       ],
       "title": "INPUT: Config",
       "properties": {
-        "aux_id": "",
-        "Node name for S&R": "SmnInputString",
-        "ver": "unknown"
+        
+        "Node name for S&R": "SmnInputString"
       },
       "widgets_values": [
         "{\n  \"world\": {\n    \"name\": \"Vvardenfell\",\n    \"description\": \"Vvardenfell is a volcanic island dominated by the looming Red Mountain, its ash-covered landscapes dotted with giant mushrooms and ancient Dwemer ruins. The ash storms and fumeroles shape the harsh terrain, while pockets of lush greenery cling to rock and cliffside.\",\n    \"geography\": {\n      \"continents\": [\n        {\n          \"name\": \"Northeast Plateau\",\n          \"description\": \"A barren expanse of blackened ash and obsidian flows beneath the towering caldera of Red Mountain, home to restless ash spawn and scattered Telvanni mushroom towers.\"\n        },\n        {\n          \"name\": \"West Sea Shore\",\n          \"description\": \"A coastal belt of black sand beaches and rocky coves along the Inner Sea, where fishermen harvest kwama and sailors dock at the port of Seyda Neen.\"\n        }\n      ],\n      \"oceans\": [\n        {\n          \"name\": \"Inner Sea\",\n          \"description\": \"A brackish inlet separating Vvardenfell from the mainland of Morrowind, its waters teeming with algal blooms and washed-over wrecks of ancient craglorn vessels.\"\n        }\n      ],\n      \"landmarks\": [\n        {\n          \"name\": \"Red Mountain\",\n          \"type\": \"Volcano\",\n          \"location\": \"Lat: 45.233, Lon: -42.117\",\n          \"description\": \"A colossal, perpetually smoking volcano at the island’s center. Its slopes are riddled with Dwemer ruins, Telvanni strongholds, and the heart of the ash wastes.\"\n        },\n        {\n          \"name\": \"Balmora Hlaalu Estate\",\n          \"type\": \"City\",\n          \"location\": \"Lat: 45.600, Lon: -44.300\",\n          \"description\": \"A bustling port town under House Hlaalu’s dominion, its canals and stone bridges linking market stalls, guild halls, and the grand council manor.\"\n        }\n      ]\n    },\n    \"nations\": [\n      {\n        \"name\": \"Great House Hlaalu\",\n        \"capital\": \"Balmora\",\n        \"government\": \"Feudal House\",\n        \"description\": \"A politically savvy House that prizes trade and commerce, ruling the western settlements with an eye toward profit and alliances with outsiders.\"\n      },\n      {\n        \"name\": \"Great House Redoran\",\n        \"capital\": \"Ald'ruhn\",\n        \"government\": \"Feudal House\",\n        \"description\": \"A militaristic House devoted to honor and defense, based beneath the mushroom towers of Ald'ruhn and sworn to protect Dunmer traditions.\"\n      }\n    ]\n  },\n  \"cultures\": [\n    {\n      \"name\": \"Dunmer\",\n      \"customs\": \"Dunmer honor their ancestors through nightly ash-veil vigils, leaving offerings of saltrice cakes and chanting ancient invocations to ward off daedric influence.\",\n      \"language\": \"Dunmeri\",\n      \"religion\": {\n        \"name\": \"Tribunal Temple\",\n        \"pantheon\": [\n          {\n            \"deity\": \"Vivec, Warrior-Poet\",\n            \"domains\": [\"War\", \"Mercy\"]\n          },\n          {\n            \"deity\": \"Almalexia, Lady of Mercy\",\n            \"domains\": [\"Healing\", \"Protection\"]\n          }\n        ]\n      }\n    },\n    {\n      \"name\": \"Ashlander\",\n      \"customs\": \"Ashlanders roam the ash wastes in tribes, conducting rites at fumeroles and weaving animal hides into sigils to protect against Corprus and ash storms.\",\n      \"language\": \"Dunmeri\",\n      \"religion\": {\n        \"name\": \"The Ashlander Spirits\",\n        \"pantheon\": [\n          {\n            \"deity\": \"Naagran Dagon, Lord of Change\",\n            \"domains\": [\"Daedra\", \"Chaos\"]\n          },\n          {\n            \"deity\": \"Sheogorath, Mad God\",\n            \"domains\": [\"Madness\", \"Trickery\"]\n          }\n        ]\n      }\n    }\n  ],\n  \"history\": {\n    \"ancient_events\": [\n      {\n        \"year\": 700,\n        \"title\": \"Battle of Red Mountain\",\n        \"summary\": \"The climactic conflict that shattered the Dwemer civilization and forged the Tribunal. Dagoth Ur’s betrayal led to Dwemer disappearance and the rise of Vivec as a living god.\"\n      },\n      {\n        \"year\": 702,\n        \"title\": \"Ascension of the Tribunal\",\n        \"summary\": \"Vivec, Almalexia, and Sotha Sil completed the Heart of Lorkhan, ascending to godhood and establishing the Tribunal Temple as the unifying faith of the Dunmer.\"\n      }\n    ]\n  },\n  \"magic_system\": {\n    \"types\": [\n      {\n        \"name\": \"Soul Gem Enchanting\",\n        \"description\": \"Artisans trap creature souls in crystal gems and use them to imbuing weapons and armor with magical effects, from fire damage to mending wounds.\"\n      },\n      {\n        \"name\": \"Temple Writs\",\n        \"description\": \"Priests of the Tribunal invoke Almsivi blessings through sacred writs and songs, channeling divine magicka to heal, shield, or reveal hidden truths.\"\n      }\n    ]\n  },\n  \"fauna_flora\": {\n    \"fauna\": [\n      {\n        \"name\": \"Netch\",\n        \"type\": \"Leviathan\",\n        \"habitat\": \"West Sea Shore\",\n        \"description\": \"Gentle, floating leviathans whose pulsating membranes glow at dusk. Mounted by nobles, these creatures drift over the ash dunes.\"\n      },\n      {\n        \"name\": \"Guar\",\n        \"type\": \"Beast\",\n        \"habitat\": \"Ashlands\",\n        \"description\": \"Sturdy two-legged beasts used as pack animals by the Ashlanders. Their thick hides and broad hooves navigate the ash-choked terrain with ease.\"\n      }\n    ],\n    \"flora\": [\n      {\n        \"name\": \"Nirnroot\",\n        \"type\": \"Plant\",\n        \"region\": \"East Gash\",\n        \"description\": \"A luminescent waterweed with distinct chiming tones. Alchemists prize its leaves and stalks for powerful potions and poisons.\"\n      },\n      {\n        \"name\": \"Corprus Fungus\",\n        \"type\": \"Fungus\",\n        \"region\": \"Ashlands Caves\",\n        \"description\": \"A grotesque fungal growth that induces Corprus disease in those who inhale its spores. Used cautiously in certain Daedric rituals.\"\n      }\n    ]\n  }\n}\n"
